@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 640" role="img" aria-labelledby="title description">
+  <title id="title">Extacy Lounge concept illustration</title>
+  <desc id="description">A conceptual black-and-gold lounge interior with warm lights and seating, not a photograph of the actual venue.</desc>
+  <defs>
+    <linearGradient id="room" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1710"/>
+      <stop offset=".55" stop-color="#0b0b0a"/>
+      <stop offset="1" stop-color="#050505"/>
+    </linearGradient>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#8f6c18"/>
+      <stop offset=".5" stop-color="#f0d98f"/>
+      <stop offset="1" stop-color="#9c7420"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#d8b34e" stop-opacity=".32"/>
+      <stop offset="1" stop-color="#d8b34e" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1000" height="640" rx="30" fill="url(#room)"/>
+  <ellipse cx="500" cy="266" rx="380" ry="240" fill="url(#glow)"/>
+  <path d="M115 110h770v15H115zM147 125v213m706-213v213" fill="none" stroke="#bd9637" stroke-opacity=".55" stroke-width="4"/>
+  <path d="M211 125v109m578-109v109" stroke="#e2bd58" stroke-opacity=".75" stroke-width="3"/>
+  <circle cx="211" cy="244" r="16" fill="#f0d98f"/><circle cx="789" cy="244" r="16" fill="#f0d98f"/>
+  <path d="M162 387c0-38 30-68 68-68h178c38 0 68 30 68 68v24H162v-24Zm382 0c0-38 30-68 68-68h158c38 0 68 30 68 68v24H544v-24Z" fill="#252017" stroke="#b48d35" stroke-width="4"/>
+  <path d="M184 411v67m269-67v67m113-67v67m264-67v67" stroke="#b48d35" stroke-width="6" stroke-linecap="round"/>
+  <path d="M104 506h792l-52 45H156l-52-45Z" fill="url(#bar)" opacity=".86"/>
+  <path d="M146 551h708v18H146z" fill="#c39b3d" opacity=".6"/>
+  <text x="500" y="462" fill="#f6edda" font-family="Arial, sans-serif" font-size="35" font-weight="700" letter-spacing="12" text-anchor="middle">EXTACY LOUNGE</text>
+  <text x="500" y="604" fill="#aaa28e" font-family="Arial, sans-serif" font-size="12" letter-spacing="3" text-anchor="middle">CONCEPT ART · NOT A PHOTOGRAPH OF THE VENUE</text>
+</svg>
